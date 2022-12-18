@@ -7,7 +7,7 @@
           "type": "Araceae",
           "price": 300,
           "rating": 4,
-          "image": { "fields": { "file": { "url": "images/product-1.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
         }
       },
       {
@@ -17,7 +17,7 @@
           "type": "Succulent",
           "price": 200,
           "rating": 3,
-          "image": { "fields": { "file": { "url": "../images/product-2.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
         }
       },
       {
@@ -27,7 +27,7 @@
           "type": "Sansevieria",
           "price": 200,
           "rating": 3,
-          "image": { "fields": { "file": { "url": "../images/product-3.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
         }
       },
       {
@@ -37,7 +37,7 @@
           "type": "Pothos",
           "price": 100,
           "rating": 4,
-          "image": { "fields": { "file": { "url": "../images/product-4.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
         }
       },
       {
@@ -47,7 +47,7 @@
           "type": "Poaceae",
           "price": 500,
           "rating": 2,
-          "image": { "fields": { "file": { "url": "../images/product-5.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
         }
       },
       {
