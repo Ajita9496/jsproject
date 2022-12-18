@@ -1,0 +1,84 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Aglaonema",
+          "type": "Araceae",
+          "price": 300,
+          "rating": 4,
+          "image": { "fields": { "file": { "url": "images/product-1.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Jade",
+          "type": "Succulent",
+          "price": 200,
+          "rating": 3,
+          "image": { "fields": { "file": { "url": "../images/product-2.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Snake Plant",
+          "type": "Sansevieria",
+          "price": 200,
+          "rating": 3,
+          "image": { "fields": { "file": { "url": "../images/product-3.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Neon Money Plant",
+          "type": "Pothos",
+          "price": 100,
+          "rating": 4,
+          "image": { "fields": { "file": { "url": "../images/product-4.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Bamboo Plant",
+          "type": "Poaceae",
+          "price": 500,
+          "rating": 2,
+          "image": { "fields": { "file": { "url": "../images/product-5.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Succlent Pack",
+          "type": "Succulent",
+          "price": 1000,
+          "rating":4,
+          "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Castle Cactus",
+          "type": "Cactus",
+          "price": 500,
+          "rating": 5,
+          "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Poinsettia",
+          "type": " Euphorbia",
+          "price": 300,
+          "rating": 5,
+          "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+        }
+      }
+    ]
+  }
