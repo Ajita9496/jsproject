@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root {
-  --rootblack: #222222;
+  --rootblack: #115400;
   --rootwhite: #ffffff;
   --rootgrey: #ececec;
   --primarycolor: #f09d51;
@@ -34,8 +34,7 @@ a {
   top: 0;
   height: 50px;
   width: 100%;
-   background: #d1f1ae;
-  background: #2ad70412;
+  background: #c7f398;
   display: flex;
   z-index: 1;
   align-items: center;
@@ -69,8 +68,8 @@ a {
   position: absolute;
   top: -12px;
   right: -10px;
-  background: var(--primarycolor);
-  color: var(--rootwhite);
+  background: #c7f398;
+  color: rgb(0, 75, 0);
   border-radius: 5px;
   padding: 0 3px;
 }
@@ -121,7 +120,7 @@ a {
   position: absolute;
   top: 10%;
   right: 0;
-  background: var(--primarycolor);
+  background: #c7f398;
   font-weight: bold;
   text-transform: uppercase;
   padding: 0.75rem 0.5rem;
@@ -162,10 +161,10 @@ a {
   margin: 10px 0;
   font-weight: lighter;
   font-size: 0.8rem;
-  color: #b1b1b1;
+  color: #a7b19c;
 }
 .price {
-  color: var(--primarycolor);
+  color: #3D7600;
   margin-top: 10px;
   float: right;
 }
@@ -184,7 +183,7 @@ a {
   height: 100%;
   width: 100%;
   z-index: 2;
-  background: rgb(254, 157, 81, 0.5);
+  background: rgba(208, 247, 157, 0.5);
   transition: var(--mainTransition);
   visibility: hidden;
 }
@@ -195,7 +194,7 @@ a {
   height: 100%;
   width: 100%;
   z-index: 3;
-  background: rgb(231, 226, 221);
+  background: rgb(224, 255, 191);
   transition: var(--mainTransition);
   overflow: scroll;
   padding: 1.5rem;
@@ -249,9 +248,9 @@ a {
   margin: 0.5rem 0;
 }
 .remove-item {
-  color: grey;
+  color: rgb(227, 255, 201);
   cursor: pointer;
-  border: 1px solid rgb(97, 93, 93);
+  border: 1px solid rgb(195, 255, 169);
   padding: 0.125rem 0.25rem;
   margin-left: -0.25rem;
   border-radius: 0.25rem;
@@ -264,7 +263,7 @@ a {
 }
 .fa-plus-circle,
 .fa-minus-circle {
-  color: var(--primarycolor);
+  color:#3D7600;
 }
 
 .cart-footer {
@@ -282,7 +281,7 @@ a {
 .btn-clear, .btn-buy {
   text-transform: uppercase;
   font-size: 1.1rem;
-  background-color: var(--primarycolor);
+  background-color: #3D7600;
   padding: 0.5rem 1rem;
   border: none;
   letter-spacing: var(--rootspacing);
@@ -291,7 +290,7 @@ a {
 }
 .btn-clear:hover, .btn-buy:hover {
   background: #222222;
-  color: var(--primarycolor);
+  color: #3D7600;
 }
 
 .login-modal {
@@ -327,7 +326,7 @@ a {
   background-color: #fefefe;
   margin: auto;
   padding: 0.75rem;
-  border: 1px solid var(--primarycolor);
+  border: 1px solid #3D7600;
   border-radius: 0.25rem;
   display: flex;
   flex-direction: column;
@@ -373,7 +372,7 @@ input{
 
 input:focus{
   outline: none;
-  border: 0.125rem solid var(--primarycolor);
+  border: 0.125rem solid #3D7600;
 }
 
 .login{
@@ -389,10 +388,10 @@ input:focus{
 }
 .search-button{
   padding: 0.25rem 0.5rem;
-  border: 0.125rem solid  #3D7600;
+  border: 0.125rem solid  #67c107;
   border-radius: 0.25rem;
   color: #3D7600;
-  background: #E1FFC1;
+  background: #ebfadb;
   cursor: pointer;
   font-weight: bold;
 }
@@ -402,8 +401,8 @@ input:focus{
 }
 .search-input{
   width: 15rem;
-  border: 0.125rem solid  #3D7600;
-  color: #CBFF93;
+  border: 0.125rem solid  #6ac805;
+  color: #1f3b00;
 }
 
 .footer{
