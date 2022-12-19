@@ -34,7 +34,7 @@ a {
   top: 0;
   height: 50px;
   width: 100%;
-  background: #c7f398;
+  background: #e5ffca;
   display: flex;
   z-index: 1;
   align-items: center;
@@ -137,7 +137,8 @@ a {
 }
 
 .bag-btn:hover {
-  color: var(--rootwhite);
+  color: rgb(9, 86, 0);
+  background-color: rgb(249, 248, 154);
 }
 .img-container:hover .bag-btn {
   transform: translateX(0);
@@ -164,7 +165,7 @@ a {
   color: #a7b19c;
 }
 .price {
-  color: #3D7600;
+  color: #2c5500;
   margin-top: 10px;
   float: right;
 }
@@ -183,7 +184,7 @@ a {
   height: 100%;
   width: 100%;
   z-index: 2;
-  background: rgba(208, 247, 157, 0.5);
+  background:  #686f5f80;
   transition: var(--mainTransition);
   visibility: hidden;
 }
@@ -248,9 +249,9 @@ a {
   margin: 0.5rem 0;
 }
 .remove-item {
-  color: rgb(227, 255, 201);
+  color: rgb(55, 113, 0);
   cursor: pointer;
-  border: 1px solid rgb(195, 255, 169);
+  border: 1px solid rgb(39, 129, 0);
   padding: 0.125rem 0.25rem;
   margin-left: -0.25rem;
   border-radius: 0.25rem;
